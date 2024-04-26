@@ -1,0 +1,30 @@
+
+
+.horizontal-bar {
+    display: flex;
+    height: 10vh;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.case {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    font-weight: bold;
+    color : black;
+}
+.main-content {
+    height: 100vh; /* Exemple de contenu principal qui occupe tout l'espace disponible */
+    background-color: white;
+}
+
+.separator {
+    width: 1px;
+    background-color: black;
+}

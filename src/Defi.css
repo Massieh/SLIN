@@ -1,0 +1,33 @@
+.c {
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.half {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black
+}
+
+.top {
+    background-color: lightblue;
+}
+
+.bottom {
+    background-color: lightgreen;
+}
+
+.separation{
+    height: 1px;
+    background-color: white;
+}
+
+.text {
+    font-size: 5vh;
+}
